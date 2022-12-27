@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+
+</head>
+<body>
+    <div class="pic pic1">
+
+            <img src="images/start1.jpg">
+            <a class="startbtn">
+<!--                <img src="images/btn.png">-->
+            </a>
+
+
+    </div>
+    <div class="pic pic2">
+        <img src="images/start2.jpg">
+    </div>
+    <div class="pic pic3">
+        <img src="images/start3.jpg">
+    </div>
+    <a class="pic pic4" href="home.html">
+        <img src="images/start4.jpg">
+    </a>
+
+    <script>
+        $('.startbtn').click(function(){
+            $('.pic1').fadeOut(300)
+            $('.pic2').fadeIn(300)
+        })
+        $('.pic2').click(function(){
+            $('.pic2').fadeOut(500)
+            $('.pic3').fadeIn(500)
+        })
+        $('.pic3').click(function(){
+            $('.pic3').fadeOut()
+            $('.pic4').fadeIn()
+        })
+    </script>
+
+</body>
+</html>
