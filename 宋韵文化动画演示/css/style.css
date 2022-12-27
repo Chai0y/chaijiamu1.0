@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pic{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /*position: relative;*/
+    display: block;
+    position: absolute;
+    text-align:center;
+}
+.pic img{
+    width:auto;
+    height: 100%;
+}
+.pic2{
+    display: none;
+}
+.pic3{
+    display: none;
+}
+.pic4{
+    display: none;
+}
+.pic5{
+    display: none;
+}
+.pic6{
+    display: none;
+}
+
+.startbtn{
+    position: absolute;
+    right: 6%;
+    bottom: -2%;
+    width: 20%;
+    height: 200px;
+}
+.startbtn img{
+    width: 289px;
+}
+.main{
+position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.main img{
+    height: 100%;
+}
